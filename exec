@@ -1,0 +1,4 @@
+#!/bin/bash
+chmod +x /action/jq-linux64
+
+/action/jq-linux64 -rcf /action/program.jq <(echo $1)
